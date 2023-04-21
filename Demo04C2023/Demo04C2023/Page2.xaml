@@ -8,7 +8,9 @@
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Button Text="Regresar" Clicked="Button_Clicked"></Button>
+            <Button Text="Regresar Modal" Clicked="Button_Clicked_2"></Button>
             <Button Text="Ir a Página 1" Clicked="Button_Clicked_1"></Button>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

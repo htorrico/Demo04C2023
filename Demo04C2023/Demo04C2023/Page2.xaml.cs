@@ -26,5 +26,10 @@ namespace Demo04C2023
         {
             Navigation.PushAsync(new Page1());
         }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
+        }
     }
 }
